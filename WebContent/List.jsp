@@ -7,6 +7,6 @@
 <title>List.jsp</title>
 </head>
 <body>
-	<h2>게시판 목록 입니다</h2>
+	<h2>게시판 목록 입니다ㄴㅇㄹㅇㄴㄹㄴㄹ</h2>
 </body>
 </html>
