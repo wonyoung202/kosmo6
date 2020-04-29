@@ -14,7 +14,7 @@
 	BBSDao dao = new BBSDao(application);
 	int affected = dao.delete(no);
 	
-	//마지막 레코드 삭제 시 페이지가 하나 줄어드는 경우 코딩 시작
+	//마지막 레코드 삭제 시 페이지가 하나 줄어드는 경우 코딩 시작ㅇㅇ
 	int total = dao.getTotalRowCount(new HashMap());//total
 	int pageSize = Integer.parseInt(application.getInitParameter("PAGE_SIZE"));//size
 	int totalPage = (int)Math.ceil((double)total/pageSize);
